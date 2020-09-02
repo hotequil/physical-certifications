@@ -1,0 +1,57 @@
+html{
+    font-size: 16px;
+    font-family: "Hind Madurai", sans-serif;
+}
+
+html, body{
+    background-color: #fefefe;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+.opacity-none{
+    opacity: 0 !important;
+}
+
+::-moz-selection {
+    background-color: rgba(66, 165, 245, .85);
+    color: #fefefe;
+}
+
+::selection {
+    background-color: rgba(66, 165, 245, .85);
+    color: #fefefe;
+}
+
+::-moz-selection {
+    background-color: rgba(66, 165, 245, .85);
+    text-shadow: none;
+}
+
+::selection {
+    background-color: rgba(66, 165, 245, .85);
+    text-shadow: none;
+}
+
+*:focus {
+    outline: 5px auto #42a5f5 !important;
+    -moz-outline: 5px auto #42a5f5 !important;
+    -webkit-outline: 5px auto #42a5f5 !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px !important;
+    background: #aaa !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa !important;
+    width: 6px !important;
+    border-radius: 0 !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fefefe !important;
+}
